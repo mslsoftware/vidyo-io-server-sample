@@ -34,7 +34,7 @@
 
 ### Security consideration
 
-   The token returned by this server provide access to Vidyo videoconferencing services.
+   The token returned by this server provides access to Vidyo videoconferencing services.
    
    This sample only shows the token generation process it does not attempt 
    to prevent anothorized generation of tokens. 
