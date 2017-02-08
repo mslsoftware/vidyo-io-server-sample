@@ -27,7 +27,14 @@
 	The server can be accessed using:
     https://[YOUR_PROJECT_ID].appspot.com/getToken?user_id=[some_user_id]
 
-## Server response
+### Server response
 
    {token : [generated token]}         
 
+
+### Security consideration
+
+   The token returned by this server provide access to Vidyo videoconferencing services.
+   
+   This sample only shows the token generation process it does not attempt 
+   to prevent anothorized generation of tokens. 
